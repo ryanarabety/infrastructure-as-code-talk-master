@@ -1,0 +1,37 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+rails-frontend/db/*.sqlite3
+rails-frontend/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+rails-frontend/tmp
+
+# Rake files
+.generators
+.rakeTasks
+
+
+# The Terraform code in this app is just an example, so ignore any files that may store Terraform state from a real
+# deployment. You may want to remove these gitignore entries for a real app.
+terraform.tfvars
+.terraform
+*.tfstate*
+
+# Ignore OS X files
+.DS_Store
+
+# IntelliJ files
+.idea_modules
+*.iml
+*.iws
+*.ipr
+.idea/
+build/
+*/build/
+out/
+
